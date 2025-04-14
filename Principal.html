@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+    "http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Republica Checa</title>
+</head>
+<!-- Se define una división en dos filas: la primera ocupa el 15% y la segunda el 85% de la altura -->
+<frameset rows="15%,85%">
+  <!-- Primer marco: ocupa el 100% del ancho y el 15% de la altura -->
+  <frame src="Cabecera.html" name="cabecera" noresize>
+  <!-- Segunda fila dividida en dos columnas -->
+  <frameset cols="30%,70%">
+    <!-- Primer columna: carga Info.html, ocupando el 30% del ancho -->
+    <frame src="Info.html" name="infoFrame" noresize>
+    <!-- Segunda columna: carga mapa.html, ocupando el 70% del ancho -->
+    <frame src="Map.html" name="mapa" noresize>
+  </frameset>
+</frameset>
+<noframes>
+  Tu navegador no soporta frames.
+</noframes>
+</html>
