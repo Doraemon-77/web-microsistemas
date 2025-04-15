@@ -1,0 +1,100 @@
+body {
+      font-family: Trebuchet MS, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 2em;
+      color: #003366;
+      margin-top: 30px;
+    }
+    p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      margin: 10px 0;
+      list-style-type: disc;
+
+      /*Centra las imágenes y aspecto*/
+    }
+    .image-float {
+      float: right;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      max-width: 300px;
+      border: 1px solid #ccc;
+    }
+    .image-float-left {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      max-width: 300px;
+      border: 1px solid #ccc;
+    }
+    sub {
+      display: block;
+      margin-top: 5px;
+      font-size: 0.8em;
+      color: #666;
+      text-align: center;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .image-container-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el subíndice horizontalmente */
+  }
+    /*He creado dos clases de contenedor para las imágenes que flotan a la derecha y a la izquierda respectivamente.
+    Estos contenedores ahora controlan el float y el margin de la imagen y su subíndice.*/
+  .image-container-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el subíndice horizontalmente */
+  }
+
+  .image-container-right img,
+  .image-container-left img {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    display: block; /* Evita espacios extra debajo de la imagen */
+    margin-bottom: 5px; /* Espacio entre la imagen y el subíndice */
+  }
+
+  .image-container-right sub,
+  .image-container-left sub {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+  }
