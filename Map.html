@@ -28,12 +28,12 @@
   <!--
     Imagen del mapa con el uso de un image map. 
     name="mapa" se referencia en usemap="#mapa".
-    Ajusta la ruta de la imagen (src) según corresponda (por ej: "Mapa.png").
+    Ajusta la ruta de la imagen (src).
   -->
   <img src="Map.png" alt="Mapa de la República Checa" usemap="#mapa">
   
   <!-- Definición de las áreas clicables en el mapa
-       Ajusta coords="..." con valores reales que se ajusten a cada región
+       utilizamos la etiqueta coords="..." con los valores mapeados de cada región
        target="infoFrame" para cargar la información en el marco lateral 
   -->
   <map name="mapa">
@@ -150,8 +150,6 @@
       alt="Praga"></area>
 
       <area shape="default" nohref></area>
-    
-    <!-- Continúa con las demás regiones... -->
   </map>
 </body>
 </html>

@@ -1,0 +1,13 @@
+Para ver la página correctamente abra el archivo Principal.html.
+
+Toda la información contenida en las paginas ha sido obtenida desde fuentes fiables:
+
+https://es.wikipedia.org
+https://espanol.radio.cz
+https://www.visitczechia.com/es-es
+https://www.cervezasdiferentes.es/shop/cervezas-por-variedad/cerveza-lager/dudak-premium-svetly-lezak-50-cl/
+https://birrapedia.com/
+
+
+
+Para la elaboración de las paginas y el código CSS se han utilizado los apuntes de clase y se ha tomado como referencia. https://www.w3schools.com/html/default.asp
